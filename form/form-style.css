@@ -1,0 +1,19 @@
+@charset "utf-8";
+input[type]{
+    margin-right: 0.5rem;
+}
+input[type="text"]{
+    border: 1px blue solid;
+}
+input[type]{
+    margin-top: 1rem;
+}
+input[type="password"]{
+    margin-top: 0.5rem;
+}
+input[type="checkbox"]{
+  margin-top: 0.5rem;
+}
+h2{
+    font-size: 0.7rem;
+}
