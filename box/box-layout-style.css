@@ -1,0 +1,48 @@
+@charset "utf-8";
+.text img{
+     width: 200px
+}
+img{
+    width: 300px;
+    
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.color{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h2{
+    width: 90%;
+}
+.item{
+    text-align: center;
+    width: 25%;
+    align-items: center;
+   justify-content: space-between;
+   background-color: aquamarine;
+}
+p{
+    font-size: 20px;
+    width: 90%;
+}
+.form{
+    text-decoration: none;
+    background-color: greenyellow;
+    display: block;
+    border-radius: 5%;
+    padding: 5%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+a{
+    color: red;
+}
+
