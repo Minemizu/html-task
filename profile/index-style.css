@@ -1,0 +1,31 @@
+@charset "utf-8";
+img{
+    width: 35;
+    width: 30px;
+    width: 20%;
+}
+.text-red{
+    color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-blue{
+    background-color: blue;
+}
+p{
+    color: aqua;
+    font-size: 20px;
+}
+body{
+    background-image: url("imgフォルダ/FGO_Poster_Cosmos_in_the_Lostbelt.webp");
+    background-size: cover;
+}
+h1{
+    color: red;
+    font-size: 30px;
+}
+h3,h4{
+    font-size: 20px;
+}
+

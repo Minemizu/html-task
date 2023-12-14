@@ -1,0 +1,24 @@
+@charset "utf-8";
+.bg-white{
+    background-color: red;
+     color: white;
+    border-radius: 5px;
+    
+}
+q{
+    vertical-align: top;
+}
+p{
+    background-color: aquamarine;
+    color: blue;
+    
+}
+body{
+    background-color: aqua;
+}
+input{
+    background-color: aquamarine;
+}
+.bg-red{
+    background-color: aquamarine;
+}
