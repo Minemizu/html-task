@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+}
+.sample2{
+    color: red;
+}
+h2{
+    color: blue;
+}
+body{
+    background-image: url(img/背景.jpg);
+}
+ul{
+    list-style-type: square;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+header  nav ul{
+    background-color: white;
+    padding: 0.5rem;
+    width: 100%;
+    display: block;
+    list-style: none;
+    display: flex;
+}
+header ul li + li{
+    border-left: 2px solid black;
+}
+header ul li a{
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    
+}
+header ul li{
+    width: 20%;
+    text-align: center;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+.breadcrumbs{
+    display: flex;
+    list-style: none;
+}
+.breadcrumbs a:hover{
+    text-decoration: none;
+}
+body{
+    min-width: 700px;
+    font-family: 'Noto Serif JP', serif;
+}
+.practice{
+    background-image: url(img/h2の背景画像.png);
+    background-position: center;
+    background-size: cover;
+}
+ 
