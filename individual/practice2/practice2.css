@@ -1,0 +1,317 @@
+@charset "utf-8";
+.practice2{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'BIZ UDMincho', serif;
+    /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/Devil-May-Cry-5_20230331212643.jpg);*/
+  }
+  body{
+    color: white;
+  }
+  .nav {
+    list-style: none;
+    overflow: hidden;
+}
+.sample{
+  display: block;
+}
+img{
+  margin-left: 150px;
+}
+.nav{
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav li {
+  width: 140px;
+  text-align: center;
+  background-color: black;
+  border-left: sandybrown solid 5px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.nav li:hover{
+  background-color: white;
+  color: blue;
+}
+li {
+  display: list-item;
+}
+.nav {
+  list-style: none;
+  overflow: hidden;
+}
+ul {
+  list-style-type: disc;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+.sample2{
+  display: flex;
+  width: 960px;
+ margin: 0 auto;
+}
+li {
+  display: list-item;
+}
+.nav {
+  list-style: none;
+  overflow: hidden;
+}
+ul {
+  list-style-type: disc;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+.AI{
+    width: 480px;
+}
+div {
+    display: block;
+}
+body {
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    list-style-type: disc;
+}
+body {
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+div {
+    display: block;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+th, td{
+    padding: 10px;
+    border: 3px solid red;
+    border-collapse: collapse;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    width: 20%;
+    
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+}
+span{
+    color: red;
+}
+.devil{
+   font-size: 20px;
+   
+
+   position: relative;
+  font-size: 24px;
+  opacity: 0; /* 初めは透明に設定 */
+  transform: translateY(100%); /* 下からスライドするために位置を下に設定 */
+  animation: fadeInFromBottom 1s forwards; /* フェードインアニメーションの設定 */
+}
+.underlined-text {
+    font-size: 24px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  .top {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+    background-color: #6002EE;
+    display: block;
+    text-align: center;
+    border-radius: 24px;
+  }
+  .top::before {
+    content: '\f062';
+    font-family: 'Font Awesome 6 Free';
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 48px;
+  }
+  .sidebar{
+    width: 200px;
+    margin: 0 10px 0 30px;
+  }
+  .sidebar ul a{
+    color: white;
+  }
+main{
+  width: 700px;
+  margin: 0 10px;
+}
+.practice{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+}
+.practice:hover{
+  background-color: white;
+  color: black;
+}
+.practice::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  animation: underlineDelay 0.5s 1 0.5s ease-in-out forwards; /* 遅延とアニメーションの設定 */
+}
+.sample3 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: -1;
+}
+.sample3 li {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  -webkit-animation: anime 40s linear 0s infinite ;
+  animation: anime 40s linear 0s infinite ;
+}
+.sample3 li:nth-child(1) { 
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/Devil-May-Cry-5_20230331212643.jpg)   /* 背景画像を入力して下さい */
+}
+.sample3 li:nth-child(2) {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/011.jpg);
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+.sample3 li:nth-child(3) {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/dante-sin-devil-trigger-devil-may-cry-5-video-game-wallpaper-2560x1600_7.jpg);
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
+}
+.sample3 li:nth-child(4) {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/devil-may-cry-5-vergil-and-dante-uhdpaper.com-8K-179.jpg);
+  -webkit-animation-delay: 30s;
+  animation-delay: 30s;
+}
+@-webkit-keyframes anime { 
+  0% {
+      -webkit-animation-timing-function: ease-in;
+      opacity: 0;
+  }
+  10% {
+      -webkit-transform: scale(1.1);
+      opacity: 1;
+  }
+  40% {
+      -webkit-transform: scale(1.2);
+          -webkit-animation-timing-function: ease-out;
+      opacity: 1;
+  }
+  50% {
+      -webkit-transform: scale(1.3);
+      opacity: 0;
+  }
+  100% { opacity: 0 }
+}
+@keyframes anime { 
+  0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+  }
+  10% {
+      transform: scale(1.1);
+      opacity: 1;
+  }
+  40% {
+      transform: scale(1.2);
+          animation-timing-function: ease-out;
+      opacity: 1;
+  }
+  50% {
+      transform: scale(1.3);
+      opacity: 0;
+  }
+  100% { opacity: 0 }
+}
+@keyframes underlineDelay {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+  @keyframes fadeInFromBottom {
+    to {
+      opacity: 1; /* アニメーション終了時に完全に表示 */
+      transform: translateY(0); /* アニメーション終了時の位置 */
+    }
+  }

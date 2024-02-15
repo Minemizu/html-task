@@ -1,0 +1,73 @@
+@charset "utf-8";
+.individual{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(img/Devil-May-Cry-5_20190308175938.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'BIZ UDMincho', serif;
+  }
+  .nav {
+    list-style: none;
+    overflow: hidden;
+}
+.sample{
+  display: block;
+}
+ul {
+    display: block;
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav li {
+  display: block;
+  width: 140px;
+  text-align: center;
+  background-color: black;
+  border-left: sandybrown solid 5px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 350px;
+  margin-left: 200px;
+}
+.nav li:hover{
+  background-color: white;
+  color: blue;
+}
+
+li {
+  display: list-item;
+}
+.nav {
+  list-style: none;
+  overflow: hidden;
+}
+ul {
+  list-style-type: disc;
+}
+a{
+  text-decoration: none;
+  color: blue;
+}
+.player{
+ margin: 150px 150px 100px 350px;
+}
+h1{
+  margin-left: 60px;
+  color: white;
+}
+h2{
+  color: red;
+  text-align: center;
+  font-size: 40px;
+}
+p{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
